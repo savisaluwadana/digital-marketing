@@ -7,8 +7,7 @@ const BoxRevealDemo = () => {
   return (
     <div className="h-full w-full items-center justify-center ml-10 overflow-hidden pt-8 space-y-2">
       <BoxReveal boxColor={"#3b82f6"} duration={0.5}>
-        
-        <p className="text-3xl font-semibold">1. Connect</p>
+        <p className="text-3xl font-semibold">1. Connect with us</p>
       </BoxReveal>
 
       <BoxReveal boxColor={"#3b82f6"} duration={0.5}>
@@ -21,7 +20,7 @@ const BoxRevealDemo = () => {
         </h2>
       </BoxReveal>
       <BoxReveal boxColor={"#3b82f6"} duration={0.5}>
-        <p className="text-3xl font-semibold">2. Collaborate</p>
+        <p className="text-3xl font-semibold">2. Collaborate with us</p>
       </BoxReveal>
 
       <BoxReveal boxColor={"#3b82f6"} duration={0.5}>
@@ -31,14 +30,20 @@ const BoxRevealDemo = () => {
       </BoxReveal>
 
       <BoxReveal boxColor={"#3b82f6"} duration={0.5}>
-        <p className="text-3xl font-semibold">3. Create</p>
+        <p className="text-3xl font-semibold">3. Develop</p>
       </BoxReveal>
 
       <BoxReveal boxColor={"#3b82f6"} duration={0.5}>
         <h2 className="my-2 text-lg text-gray-500">Leave the rest to us</h2>
       </BoxReveal>
+      <BoxReveal boxColor={"#3b82f6"} duration={0.5}>
+        <p className="text-3xl font-semibold">3. Deliver</p>
+      </BoxReveal>
+      <BoxReveal boxColor={"#3b82f6"} duration={0.5}>
+        <h2 className="my-2 text-lg text-gray-500">Get it done!!!!!!</h2>
+      </BoxReveal>
     </div>
   );
-}
+};
 
 export default BoxRevealDemo;
